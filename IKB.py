@@ -134,7 +134,7 @@ class __xxx__:
             self.IKBx(id)
     def __metode__(self, user, __chi__, cebok):
         global ok,cp,loop
-        sys.stdout.write("""f\r \x1b[1;97m[IK] {loop}|{len(self.id)} [ok][{len(ok)}] [cp][{len(cp)}] """)
+        sys.stdout.write(f"\r \x1b[1;33m[IKB]\x1b[1;33m {loop}|{len(self.id)} \x1b[1;32m[ok][{len(ok)}] ")
         sys.stdout.flush()
         try:
             for pw in __chi__:
